@@ -1,0 +1,8 @@
+- Corrigir erro de operador ...
+- Criar o cliente com as requisições
+- Estrutura o corpo das requisições
+- Testar criação de usuário
+- Testar pegar dados do usuário
+- Testar atualizar dados do usuário
+
+> https://github.com/motdotla/dotenv

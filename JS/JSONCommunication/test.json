@@ -1,0 +1,16 @@
+{
+	"thing1" : {
+		"id" : 1,
+		"madeof" : "gold"
+	},
+
+	"thing2" : {
+		"id" : 2,
+		"madeof" : "wood"
+	},
+
+	"thing3" : {
+		"id" : 3,
+		"madeof" : "flahs and bones"
+	}
+}

@@ -1,0 +1,34 @@
+<html>
+<body onload="sendJson("http://127.0.0.1:5000/sent_from_client")">
+	<h1>HEY! SUP?</h1>
+	<script type="text/javascript">
+		function sendJson(url) {
+			json_file = `
+				{
+					"thing1" : {
+						"id" : 1,
+						"madeof" : "gold"
+					},
+
+					"thing2" : {
+						"id" : 2,
+						"madeof" : "wood"
+					},
+
+					"thing3" : {
+						"id" : 3,
+						"madeof" : "flahs and bones"
+					}
+			}`;
+
+			var xhr = XMLHttpRequest();
+			xhr.onreadystatechange = function() {
+				if (xhr.readyState == 4 && xhr.status == 200)
+					console.log("Worked! ;)");
+			}
+			xhr.open("POST", url, true);
+			xhr.send(json_file);
+		}
+	</script>
+</body>
+</html>
