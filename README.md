@@ -11,4 +11,3 @@ This repository is a backup of my local laboratory of studie of technologies(pro
 #### List of Techonologies
 - [AMP](https://github.com/RCSM/Technologies-Lab/tree/master/HTML/AMP)
 - [Twilio API](https://github.com/RCSM/Technologies-Lab/tree/master/Python/App%20Twilio)
-- [Django](https://github.com/RCSM/Technologies-Lab/tree/master/Python/Django%20First%20App/randGenSite)
