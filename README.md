@@ -3,7 +3,7 @@
 This repository is a backup of my local laboratory of studie of technologies(programming languages and frameworks).
 
 #### List of Programming languages
-- [C](https://github.com/RCSM/Technologies-Lab/tree/master/C
+- [C](https://github.com/RCSM/Technologies-Lab/tree/master/C)
 - [PHP](https://github.com/RCSM/Technologies-Lab/tree/master/PHP)
 - [Python](https://github.com/RCSM/Technologies-Lab/tree/master/PYTHON)
 
