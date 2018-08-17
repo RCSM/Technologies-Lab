@@ -1,8 +1,3 @@
-# Problems to be solved :
-#   1. Get the text from the source
-#   2. Read/Open it(if can't, check char set)
-#   3. Close the file and end the script
-
 stc = "How are you doing today. Hopefully you are doing great"
 
 book = stc.split()
@@ -16,10 +11,3 @@ for word in book:
 
 for key, value in ctr.items():
     print key, "appears", value, "time(s)"
-
-# D : Get each letter
-#for letter in stc:
-#    print(letter)
-
-# D : Get the words
-#print(stc.split())
