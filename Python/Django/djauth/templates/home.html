@@ -3,12 +3,21 @@
 {% block title %}Home{% endblock %}
 
 {% block content %}
-{% if user.is_authenticated %}
-  Welcome {{ user.username }}!
-  <p><a href="{% url 'logout' %}">logout</a></p>
-{% else %}
-  <p>You are not logged in</p>
-  <a href="{% url 'login' %}">login</a> |
-  <a href="{% url 'signup' %}">signup</a>
-{% endif %}
+  {% if user.is_authenticated %}
+    Welcome {{ user.username }}!
+    <p><a href="{% url 'logout' %}">logout</a></p>
+  {% else %}
+    <p>You are not logged in</p>
+    <a href="{% url 'login' %}">login</a> |
+    <a href="{% url 'signup' %}">signup</a>
+  {% endif %}
+  {% if perms.G1 %}
+    <p>Esse usuário tem permissões G1.</p>
+  {% elif perms.G2 %}
+    <p>Esse usuário tem permissões G2.</p>
+  {% elif perms.G3 %}
+    <p>Esse usuário tem permissões G3.</p>
+  {% else %}
+    <p>Esse usuário não tem nenhuma das permissões listadas.</p>
+  {% endif %}
 {% endblock %}
