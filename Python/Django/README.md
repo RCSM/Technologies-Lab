@@ -9,18 +9,6 @@ $ django-admin startproject PROJECT_NAME
 3. Rodar servidor dev localmente
 $ python manage.py runserver
 
-4. Django PostgreSQL config example
-# PostgreSQL config example
-# HOST : if '' uses Unix domain socket, if 'localhost' or '127.0.0.1' uses TCP connection
-'postgresql': {
-    'ENGINE': 'django.db.backends.postgresql',
-    'NAME': 'mydb',
-    'USER': 'mydbuser',
-    'PASSWORD': 'mydbpass',
-    'HOST': '127.0.0.1',
-    'PORT': '5432'
-}
-
 5. User insertion example
 user : User0
 passwor : user0123456
@@ -47,7 +35,9 @@ No arquivo settings.py, mudar a variável LANGUAGE_CODE para a língua desejada.
     Ref
 
 BD : https://docs.djangoproject.com/en/2.1/ref/settings/#databases
+
 BD-test : https://docs.djangoproject.com/en/2.1/topics/testing/overview/#the-test-database
+
 Tradução : https://docs.djangoproject.com/en/2.1/topics/i18n/
 
 
