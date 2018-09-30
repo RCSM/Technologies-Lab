@@ -1,4 +1,4 @@
-    Script
+## Notas e comandos
 
 1. Como instalar?
 `$ pip install Django`
@@ -45,5 +45,7 @@ Tradução : https://docs.djangoproject.com/en/2.1/topics/i18n/
 
 Geradores de gráficos :
 > https://github.com/matthisk/django-jchart
+
 > https://github.com/areski/django-nvd3
+
 > https://github.com/wq/django-rest-pandas
