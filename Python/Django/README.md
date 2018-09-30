@@ -1,23 +1,23 @@
     Script
 
 1. Como instalar?
-$ pip install Django
+`$ pip install Django`
 
 2. Iniciar um projeto
-$ django-admin startproject PROJECT_NAME
+`$ django-admin startproject PROJECT_NAME`
 
 3. Rodar servidor dev localmente
-$ python manage.py runserver
+`$ python manage.py runserver`
 
 5. User insertion example
-user : User0
-passwor : user0123456
+`user : User0
+passwor : user0123456`
 
 6. Criar adm
-python manage.py createsuperuser
+`$ python manage.py createsuperuser`
 
 7. Criação do banco usando sqlite3
-python manage.py migrate
+`$ python manage.py migrate`
 
 8. Desativação do sistema de debug para deploy
 No arquivo settings.py dentro do diretório do projeto :
@@ -32,7 +32,7 @@ No arquivo settings.py, mudar a variável LANGUAGE_CODE para a língua desejada.
 -> en-us : English (United States)
 
 
-    Ref
+## Ref
 
 BD : https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
@@ -41,9 +41,9 @@ BD-test : https://docs.djangoproject.com/en/2.1/topics/testing/overview/#the-tes
 Tradução : https://docs.djangoproject.com/en/2.1/topics/i18n/
 
 
-    Pesquisa
+## Pesquisa
 
 Geradores de gráficos :
--> https://github.com/matthisk/django-jchart
--> https://github.com/areski/django-nvd3
--> https://github.com/wq/django-rest-pandas
+> https://github.com/matthisk/django-jchart
+> https://github.com/areski/django-nvd3
+> https://github.com/wq/django-rest-pandas
