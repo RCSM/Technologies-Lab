@@ -1,23 +1,35 @@
 ## Notas e comandos
 
 1. Como instalar?
-`$ pip install Django`
+```
+$ pip install Django
+```
 
 2. Iniciar um projeto
-`$ django-admin startproject PROJECT_NAME`
+```
+$ django-admin startproject PROJECT_NAME
+```
 
 3. Rodar servidor dev localmente
-`$ python manage.py runserver`
+```
+$ python manage.py runserver
+```
 
 5. User insertion example
-`user : User0
-passwor : user0123456`
+```
+user : User0
+passwor : user0123456
+```
 
 6. Criar adm
-`$ python manage.py createsuperuser`
+```
+$ python manage.py createsuperuser
+```
 
 7. Criação do banco usando sqlite3
-`$ python manage.py migrate`
+```
+$ python manage.py migrate
+```
 
 8. Desativação do sistema de debug para deploy
 No arquivo settings.py dentro do diretório do projeto :
